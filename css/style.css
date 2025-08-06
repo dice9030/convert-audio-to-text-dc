@@ -1,0 +1,29 @@
+  body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f4f4f4;
+    }
+    #texto {
+      margin-top: 20px;
+      padding: 1rem;
+      background: white;
+      border: 1px solid #ccc;
+      min-height: 100px;
+      white-space: pre-wrap;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 14px;
+      margin: 5px 5px 5px 0;
+      cursor: pointer;
+    }
+    #iconoMicrofono {
+      font-size: 32px;
+      vertical-align: middle;
+      margin-left: 10px;
+      color: gray;
+      transition: color 0.3s ease;
+    }
+    .activo {
+      color: red !important;
+    }
